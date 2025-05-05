@@ -112,7 +112,7 @@ For a local development setup, please take a look at
 | `defectDojoEvalTestTitle`             | `"false"`                  | Specifies whether the test title should be evaluated as a python function.                   |
 | `defectDojoMinimumSeverity`           | `Info`                     | The minimum severity level for findings in DefectDojo.                                       |
 | `defectDojoProductName`               | `product`                  | The name of the product in DefectDojo.                                                       |
-| `defectDojoProductTypeName`           | `Research and Development` | The type of the product in DefectDojo.                                                       |
+| `defectDojoProductTypeName`           | `` | The type of the product in DefectDojo.                                                       |
 | `defectDojoServiceName`               | ``                         | The name of the service in DefectDojo.                                                       |
 | `defectDojoEnvName`                   | `Development`              | The type of the env in DefectDojo.                                                           |
 | `defectDojoGitRef`                    | `development`               | The name of the Git Ref to be specified in DefectDojo (e.g.: `main`, `development`, etc.).                                                             |
