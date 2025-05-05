@@ -43,13 +43,15 @@ operator:
       defectDojoEnvName: Development
       defectDojoEvalEngagementName: "false"
       defectDojoEvalEnvName: "false"
-      defectDojoEvalBranchTag: "false"
+      defectDojoEvalGitRef: "false"
       defectDojoEvalProductName: "false"
       defectDojoEvalProductTypeName: "false"
       defectDojoEvalTestTitle: "false"
-      defectDojoBranchTag: "branch-tag"
+      defectDojoGitRef: "development"
       defectDojoMinimumSeverity: Info
-      defectDojoProductName: product
+      defectDojoProductName: productBranch or Tag that was scanned.
+
+
       defectDojoProductTypeName: Research and Development
       defectDojoPushToJira: "false"
       defectDojoTestTitle: Kubernetes

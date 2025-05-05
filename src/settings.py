@@ -65,9 +65,9 @@ DEFECT_DOJO_EVAL_ENGAGEMENT_NAME: bool = get_env_var_bool(
     "DEFECT_DOJO_EVAL_ENGAGEMENT_NAME"
 )
 
-DEFECT_DOJO_BRANCH_TAG: str | None = os.getenv("DEFECT_DOJO_BRANCH_TAG")
-DEFECT_DOJO_EVAL_BRANCH_TAG: bool = get_env_var_bool(
-    "DEFECT_DOJO_EVAL_BRANCH_TAG"
+DEFECT_DOJO_GIT_REF: str | None = os.getenv("DEFECT_DOJO_GIT_REF")
+DEFECT_DOJO_EVAL_GIT_REF: bool = get_env_var_bool(
+    "DEFECT_DOJO_EVAL_GIT_REF"
 )
 
 DEFECT_DOJO_PRODUCT_NAME: str = os.getenv(

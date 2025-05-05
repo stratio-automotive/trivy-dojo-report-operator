@@ -108,14 +108,14 @@ For a local development setup, please take a look at
 | `defectDojoEvalProductTypeName`       | `"false"`                  | Specifies whether the product type name should be evaluated as a python function.            |
 | `defectDojoEvalServiceName`           | `"false"`                  | Specifies whether the service name should be evaluated as a python function.                 |
 | `defectDojoEvalEnvName`               | `"false"`                  | Specifies whether the enviroment type name should be evaluated as a python function.         |
-| `defectDojoEvalBranchTag`             | `"false"`                  | Specifies whether the Branch/Tag name should be evaluated as a python function.         |
+| `defectDojoEvalGitRef   `             | `"false"`                  | Specifies whether the Git Ref should be evaluated as a python function.         |
 | `defectDojoEvalTestTitle`             | `"false"`                  | Specifies whether the test title should be evaluated as a python function.                   |
 | `defectDojoMinimumSeverity`           | `Info`                     | The minimum severity level for findings in DefectDojo.                                       |
 | `defectDojoProductName`               | `product`                  | The name of the product in DefectDojo.                                                       |
 | `defectDojoProductTypeName`           | `Research and Development` | The type of the product in DefectDojo.                                                       |
 | `defectDojoServiceName`               | ``                         | The name of the service in DefectDojo.                                                       |
 | `defectDojoEnvName`                   | `Development`              | The type of the env in DefectDojo.                                                           |
-| `defectDojoBranchTag`                 | `branch-tag`               | The name of the Branch/Tag to be specified in DefectDojo.                                                           |
+| `defectDojoGitRef`                    | `development`               | The name of the Git Ref to be specified in DefectDojo (e.g.: `main`, `development`, etc.).                                                             |
 | `defectDojoPushToJira`                | `"false"`                  | Specifies whether findings should be pushed to Jira in DefectDojo.                           |
 | `defectDojoTestTitle`                 | `Kubernetes`               | The title of the test in DefectDojo.                                                         |
 | `defectDojoVerified`                  | `"false"`                  | Specifies whether findings should be marked as verified in DefectDojo.                       |

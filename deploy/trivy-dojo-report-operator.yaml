@@ -205,9 +205,9 @@ spec:
           value: 
         - name: DEFECT_DOJO_DO_NOT_REACTIVATE
           value: "true"
-        - name: DEFECT_DOJO_BRANCH_TAG
-          value: "branch-tag"
-        - name: DEFECT_DOJO_EVAL_BRANCH_TAG
+        - name: DEFECT_DOJO_GIT_REF
+          value: "development"
+        - name: DEFECT_DOJO_EVAL_GIT_REF
           value: "false"
         - name: REPORTS
           value: "vulnerabilityreports"
