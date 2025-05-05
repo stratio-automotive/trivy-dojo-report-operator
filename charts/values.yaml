@@ -49,9 +49,7 @@ operator:
       defectDojoEvalTestTitle: "false"
       defectDojoGitRef: "development"
       defectDojoMinimumSeverity: Info
-      defectDojoProductName: productBranch or Tag that was scanned.
-
-
+      defectDojoProductName: product
       defectDojoProductTypeName: Research and Development
       defectDojoPushToJira: "false"
       defectDojoTestTitle: Kubernetes
